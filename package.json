@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-supermercado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.6.4",
+    "jwt-simple": "^0.5.6",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0"
+  }
+}
